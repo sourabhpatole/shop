@@ -1,0 +1,22 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "MERN shop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabhpatole/shop.git"
+  },
+  "author": "sourabh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourabhpatole/shop/issues"
+  },
+  "homepage": "https://github.com/sourabhpatole/shop#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
