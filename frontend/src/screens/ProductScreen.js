@@ -15,7 +15,7 @@ import { listProductDetails } from "../actions/productActions";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
 const ProductScreen = ({ history, match }) => {
-  const [qty, setQty] = useState(0);
+  const [qty, setQty] = useState(1);
   const dispatch = useDispatch();
   const productDetails = useSelector((state) => state.productDetails);
   const { loading, error, product } = productDetails;
@@ -81,7 +81,7 @@ const ProductScreen = ({ history, match }) => {
                 {product.countInStock > 0 && (
                   <ListGroup.Item>
                     <Row>
-                      <Col>Qty</Col>
+                      <Col>qty</Col>
                       <Col>
                         <Form.Control
                           as="select"
@@ -98,6 +98,7 @@ const ProductScreen = ({ history, match }) => {
                     </Row>
                   </ListGroup.Item>
                 )}
+
                 <ListGroup.Item>
                   <Button
                     onClick={addtoCart}
