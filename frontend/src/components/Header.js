@@ -18,9 +18,9 @@ const Header = () => {
         <Container>
           <LinkContainer
             to="/"
-            style={{ fontSize: "23px", fontFamily: "Ubuntu", color: "tomato" }}
+            style={{ fontSize: "23px", fontFamily: "Ubuntu" }}
           >
-            <Navbar.Brand>Resound Shopee</Navbar.Brand>
+            <Navbar.Brand>Simple Store</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
